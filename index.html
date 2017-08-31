@@ -153,6 +153,118 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-TSM解析" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/08/31/TSM解析/">TSM解析</a>
+    </h1>
+  
+
+        
+        <a href="/2017/08/31/TSM解析/" class="archive-article-date">
+  	<time datetime="2017-08-31T13:09:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-31</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><em>最近工作中学到关于TSM的知识，看到一篇不错的介绍文章，转载过来方便学习。</em></p>
+<p>TSM，可信服务管理平台(Trusted Service Manager)，提供应用发行管理和安全模块管理等功能的系统。在基于智能卡的移动支付场景中，为智能卡空中发卡及多应用管理提供业务、技术和安全保障， 实现卡片发行方、应用提供方和TSM服务方互联互信。</p>
+<h2 id="TSM的应用领域"><a href="#TSM的应用领域" class="headerlink" title="TSM的应用领域"></a>TSM的应用领域</h2><p>中国移动、中国电信、中国联通三大运营商以及中国银联早已推出了自有TSM平台。<br>2013年2月，中国移动和中国银联宣布TSM系统的对接成功。<br>各TSM涵盖应用范围有很大重叠：PBOC、公交一卡通、电子票等。<br>当然各TSM也有一些独有的应用，比如移动TSM的企业一卡通应用，联通TSM的沃支付，电信TSM的翼支付，银联TSM的UPCard。</p>
+<h2 id="TSM应用管理"><a href="#TSM应用管理" class="headerlink" title="TSM应用管理"></a>TSM应用管理</h2><p>TSM通过控制安全域来管理应用，安全域分为主安全域和辅助安全域。主安全域一般由发卡方控制，辅助安全域则交由第三方应用管理，其中主安全域可以管理辅助安全域的应用。<br>辅助安全域又可以划分为授权管理安全域、委托管理安全域，具有授权管理权限的安全域可以在限制条件内自由安装删除应用，委托管理权限的安全域的下载删除受到主安全域的限制。<br>TSM平台提供主安全域、辅助安全域下的应用下载及个人化。<br>TSM平台提供应用删除功能，可通过非接触(POS)及空中方式，将已经安装在SE中主安全域、第三方安全域下应用删除。<br>TSM平台提供默认应用管理，用户可以通过客户端自由选择默认应用。<br>TSM客户端可以提供交易记录查询等。</p>
+<h2 id="TSM特点"><a href="#TSM特点" class="headerlink" title="TSM特点"></a>TSM特点</h2><p><strong>1、一卡多账户</strong></p>
+<ul>
+<li><p>符合GP国际标准</p>
+</li>
+<li><p>手机客户端可设置默认支付账户</p>
+</li>
+<li><p>动态PPSE、多账户冲突检测，PPSE存储了默认支付账户，CRL及CRES提供冲突检测、默认账户管理。</p>
+</li>
+</ul>
+<p><strong>2、空中发卡和应用管理</strong></p>
+<ul>
+<li><p>应用申请、下载、个人化</p>
+</li>
+<li><p>应用锁定、删除</p>
+</li>
+<li><p>安全载体状态通知和管理</p>
+</li>
+</ul>
+<p><strong>3、安全</strong></p>
+<ul>
+<li><p>交易关键数据、敏感信息仍储存在安全存储中</p>
+</li>
+<li><p>针对手机银行或支付客户端的安全加固（防止数据泄露和窃取）：采用动态密码软键盘、不留存敏感数据、代码混淆、防止反编译、防止二次打包、客户端与服务器进行认证加密传输等</p>
+</li>
+<li><p>客户端访问权限控制：基于GPAC（GP Access Control）国际标准，采用了客户端访问控制技术进一步加强客户端与SE交互安全性</p>
+</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">TSM</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">智能卡</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">移动支付</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/08/31/TSM解析/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-HEXO搭建个人博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -277,7 +389,7 @@
 <p>等待RVM安装完成，测试是否安装正常<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">source</span> ~/.bashrc</div><div class="line">$ <span class="built_in">source</span> ~/.bash_profile</div></pre></td></tr></table></figure></p>
 <p>查看版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ rvm -v</div></pre></td></tr></table></figure></p>
 <p>可能会出现warning的情况：Warning! PATH is not properly set up, ‘/Users/zhangyuxuan/.rvm/gems/ruby-2.3.0/bin’ is not at first place,<br>         usually this is caused by shell initialization files - check them for ‘PATH=…’ entries,<br>         it might also help to re-add RVM to your dotfiles: ‘rvm get stable –auto-dotfiles’,<br>         to fix temporarily in this shell session run: ‘rvm use ruby-2.3.0’.<br>我的解决办法是：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ rvm reset</div><div class="line">$ rvm version</div></pre></td></tr></table></figure></p>
-<p>然后应该不会再出现上面的warning了，正常会出现：rvm 1.27.0 (latest) by Wayne E. Seguin <a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#x77;&#97;&#x79;&#x6e;&#101;&#101;&#x73;&#x65;&#x67;&#117;&#x69;&#x6e;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x77;&#97;&#x79;&#x6e;&#101;&#101;&#x73;&#x65;&#x67;&#117;&#x69;&#x6e;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;</a>, Michal Papis <a href="&#109;&#97;&#x69;&#108;&#x74;&#x6f;&#x3a;&#x6d;&#112;&#97;&#112;&#105;&#x73;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x6d;&#112;&#97;&#112;&#105;&#x73;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a> [<a href="https://rvm.io/" target="_blank" rel="external">https://rvm.io/</a>]</p>
+<p>然后应该不会再出现上面的warning了，正常会出现：rvm 1.27.0 (latest) by Wayne E. Seguin <a href="&#109;&#x61;&#105;&#108;&#116;&#111;&#x3a;&#119;&#x61;&#121;&#110;&#x65;&#101;&#x73;&#x65;&#103;&#x75;&#x69;&#x6e;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#119;&#x61;&#121;&#110;&#x65;&#101;&#x73;&#x65;&#103;&#x75;&#x69;&#x6e;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;</a>, Michal Papis <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#x6d;&#x70;&#97;&#112;&#105;&#115;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x6d;&#x70;&#97;&#112;&#105;&#115;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a> [<a href="https://rvm.io/" target="_blank" rel="external">https://rvm.io/</a>]</p>
 <p>2.接下来，用RVM升级Ruby<br>先查看当前版本，我当时的是2.0.0：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ruby -v</div></pre></td></tr></table></figure></p>
 <p>列出所有的Ruby版本：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ rvm list known</div></pre></td></tr></table></figure></p>
 <p>安装最新版本：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ rvm install 2.3.0</div></pre></td></tr></table></figure></p>

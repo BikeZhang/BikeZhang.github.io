@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>关于CocoaPods | Bike Blog</title>
+  <title>TSM解析 | Bike Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="因为毕设的缘故入了几个月iOS app开发的坑，不过也只是学了一些毕设需要用到的内容，很多东西都不是特别懂。先写点自己学习开发过程遇到的一些问题。今天说说CocoaPods。 一开始碰到这东西是下了一个demo在自己电脑上跑，没运行成功，就是因为有它。查了一些资料以后才了解，iOS开发中，项目会引用到一些第三方的库，比如AFNetworking、SBJson，CocoaPods就是用来方便管理这些">
-<meta name="keywords" content="ios,cocoapods">
+  <meta name="description" content="最近工作中学到关于TSM的知识，看到一篇不错的介绍文章，转载过来方便学习。 TSM，可信服务管理平台(Trusted Service Manager)，提供应用发行管理和安全模块管理等功能的系统。在基于智能卡的移动支付场景中，为智能卡空中发卡及多应用管理提供业务、技术和安全保障， 实现卡片发行方、应用提供方和TSM服务方互联互信。 TSM的应用领域中国移动、中国电信、中国联通三大运营商以及中国银联">
+<meta name="keywords" content="TSM,智能卡,移动支付">
 <meta property="og:type" content="article">
-<meta property="og:title" content="关于CocoaPods">
-<meta property="og:url" content="http://yoursite.com/2016/08/29/关于CocoaPods/index.html">
+<meta property="og:title" content="TSM解析">
+<meta property="og:url" content="http://yoursite.com/2017/08/31/TSM解析/index.html">
 <meta property="og:site_name" content="Bike Blog">
-<meta property="og:description" content="因为毕设的缘故入了几个月iOS app开发的坑，不过也只是学了一些毕设需要用到的内容，很多东西都不是特别懂。先写点自己学习开发过程遇到的一些问题。今天说说CocoaPods。 一开始碰到这东西是下了一个demo在自己电脑上跑，没运行成功，就是因为有它。查了一些资料以后才了解，iOS开发中，项目会引用到一些第三方的库，比如AFNetworking、SBJson，CocoaPods就是用来方便管理这些">
-<meta property="og:updated_time" content="2016-08-30T09:09:21.000Z">
+<meta property="og:description" content="最近工作中学到关于TSM的知识，看到一篇不错的介绍文章，转载过来方便学习。 TSM，可信服务管理平台(Trusted Service Manager)，提供应用发行管理和安全模块管理等功能的系统。在基于智能卡的移动支付场景中，为智能卡空中发卡及多应用管理提供业务、技术和安全保障， 实现卡片发行方、应用提供方和TSM服务方互联互信。 TSM的应用领域中国移动、中国电信、中国联通三大运营商以及中国银联">
+<meta property="og:updated_time" content="2017-08-31T13:30:22.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于CocoaPods">
-<meta name="twitter:description" content="因为毕设的缘故入了几个月iOS app开发的坑，不过也只是学了一些毕设需要用到的内容，很多东西都不是特别懂。先写点自己学习开发过程遇到的一些问题。今天说说CocoaPods。 一开始碰到这东西是下了一个demo在自己电脑上跑，没运行成功，就是因为有它。查了一些资料以后才了解，iOS开发中，项目会引用到一些第三方的库，比如AFNetworking、SBJson，CocoaPods就是用来方便管理这些">
+<meta name="twitter:title" content="TSM解析">
+<meta name="twitter:description" content="最近工作中学到关于TSM的知识，看到一篇不错的介绍文章，转载过来方便学习。 TSM，可信服务管理平台(Trusted Service Manager)，提供应用发行管理和安全模块管理等功能的系统。在基于智能卡的移动支付场景中，为智能卡空中发卡及多应用管理提供业务、技术和安全保障， 实现卡片发行方、应用提供方和TSM服务方互联互信。 TSM的应用领域中国移动、中国电信、中国联通三大运营商以及中国银联">
   
     <link rel="alternative" href="/atom.xml" title="Bike Blog" type="application/atom+xml">
   
@@ -156,47 +156,57 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-关于CocoaPods" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-TSM解析" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      关于CocoaPods
+      TSM解析
     </h1>
   
 
         
-        <a href="/2016/08/29/关于CocoaPods/" class="archive-article-date">
-  	<time datetime="2016-08-29T14:56:40.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-08-29</time>
+        <a href="/2017/08/31/TSM解析/" class="archive-article-date">
+  	<time datetime="2017-08-31T13:09:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-31</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>因为毕设的缘故入了几个月iOS app开发的坑，不过也只是学了一些毕设需要用到的内容，很多东西都不是特别懂。先写点自己学习开发过程遇到的一些问题。今天说说CocoaPods。</p>
-<p>一开始碰到这东西是下了一个demo在自己电脑上跑，没运行成功，就是因为有它。查了一些资料以后才了解，iOS开发中，项目会引用到一些第三方的库，比如AFNetworking、SBJson，CocoaPods就是用来方便管理这些库的。</p>
-<p>一、安装<br>下载安装CocoaPods需要Ruby环境，而Mac本身自带Ruby，保险起见可以先更新一下。我使用RVM对Ruby进行升级的。<br>1.首先安装RVM<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ curl -L get.rvm.io | bash -s stable</div></pre></td></tr></table></figure></p>
-<p>等待RVM安装完成，测试是否安装正常<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">source</span> ~/.bashrc</div><div class="line">$ <span class="built_in">source</span> ~/.bash_profile</div></pre></td></tr></table></figure></p>
-<p>查看版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ rvm -v</div></pre></td></tr></table></figure></p>
-<p>可能会出现warning的情况：Warning! PATH is not properly set up, ‘/Users/zhangyuxuan/.rvm/gems/ruby-2.3.0/bin’ is not at first place,<br>         usually this is caused by shell initialization files - check them for ‘PATH=…’ entries,<br>         it might also help to re-add RVM to your dotfiles: ‘rvm get stable –auto-dotfiles’,<br>         to fix temporarily in this shell session run: ‘rvm use ruby-2.3.0’.<br>我的解决办法是：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ rvm reset</div><div class="line">$ rvm version</div></pre></td></tr></table></figure></p>
-<p>然后应该不会再出现上面的warning了，正常会出现：rvm 1.27.0 (latest) by Wayne E. Seguin <a href="&#109;&#x61;&#105;&#108;&#116;&#111;&#x3a;&#119;&#x61;&#121;&#110;&#x65;&#101;&#x73;&#x65;&#103;&#x75;&#x69;&#x6e;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#119;&#x61;&#121;&#110;&#x65;&#101;&#x73;&#x65;&#103;&#x75;&#x69;&#x6e;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;</a>, Michal Papis <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#x6d;&#x70;&#97;&#112;&#105;&#115;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x6d;&#x70;&#97;&#112;&#105;&#115;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a> [<a href="https://rvm.io/" target="_blank" rel="external">https://rvm.io/</a>]</p>
-<p>2.接下来，用RVM升级Ruby<br>先查看当前版本，我当时的是2.0.0：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ruby -v</div></pre></td></tr></table></figure></p>
-<p>列出所有的Ruby版本：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ rvm list known</div></pre></td></tr></table></figure></p>
-<p>安装最新版本：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ rvm install 2.3.0</div></pre></td></tr></table></figure></p>
-<p>3.安装CocoaPods<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo gem install cocoapods</div></pre></td></tr></table></figure></p>
-<p>安装完成。</p>
-<p>二、使用CocoaPods<br>1.首先要进入到项目所在目录，创建一个Podfile文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pod init</div></pre></td></tr></table></figure></p>
-<p>打开Podfile，第一行指出platform以及支持的版本：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">platform: ios, <span class="string">'9.3'</span></div></pre></td></tr></table></figure></p>
-<p>接下来可以定义Xcode target连接CocoaPods，用<strong> target ‘$TARGET_NAME’ do </strong>然后<strong> end </strong>结尾。<br>用一行<strong> pod ‘$PODNAME’ </strong>在target块里面添加一个CocoaPod，example:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">target <span class="string">'MyApp'</span> <span class="keyword">do</span></div><div class="line">  pod <span class="string">'AFNetworking'</span>, <span class="string">'~&gt; 3.0'</span></div><div class="line">  pod <span class="string">'FBSDKCoreKit'</span>, <span class="string">'~&gt; 4.9'</span></div><div class="line">end</div></pre></td></tr></table></figure></p>
-<p>保存Podfile，然后run：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pod install</div></pre></td></tr></table></figure></p>
-<p>搞定。</p>
-<p>三、使用别人demo时pods报错<br>回到最开始的问题，之所以会研究一下CocoaPods完全是因为用别人的demo跑的时候build错误：<br><strong>diff: /../Podfile.lock: No such file or directory</strong><br><strong>diff: /Manifest.lock: No such file or directory</strong><br><strong>error: The sandbox is not in sync with the Podfile.lock. Run ‘pod install’ or update your CocoaPods installation.</strong><br>下面讲一下解决办法。首先从terminal进入工程目录，更新pod：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pod update</div></pre></td></tr></table></figure></p>
-<p>如果出现需要更新的情况，run<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo gem install cocoapods --pre</div></pre></td></tr></table></figure></p>
-<p>最后install pod:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pod install</div></pre></td></tr></table></figure></p>
-<p>重新打开project，运行，问题应该就解决了。</p>
+        <p><em>最近工作中学到关于TSM的知识，看到一篇不错的介绍文章，转载过来方便学习。</em></p>
+<p>TSM，可信服务管理平台(Trusted Service Manager)，提供应用发行管理和安全模块管理等功能的系统。在基于智能卡的移动支付场景中，为智能卡空中发卡及多应用管理提供业务、技术和安全保障， 实现卡片发行方、应用提供方和TSM服务方互联互信。</p>
+<h2 id="TSM的应用领域"><a href="#TSM的应用领域" class="headerlink" title="TSM的应用领域"></a>TSM的应用领域</h2><p>中国移动、中国电信、中国联通三大运营商以及中国银联早已推出了自有TSM平台。<br>2013年2月，中国移动和中国银联宣布TSM系统的对接成功。<br>各TSM涵盖应用范围有很大重叠：PBOC、公交一卡通、电子票等。<br>当然各TSM也有一些独有的应用，比如移动TSM的企业一卡通应用，联通TSM的沃支付，电信TSM的翼支付，银联TSM的UPCard。</p>
+<h2 id="TSM应用管理"><a href="#TSM应用管理" class="headerlink" title="TSM应用管理"></a>TSM应用管理</h2><p>TSM通过控制安全域来管理应用，安全域分为主安全域和辅助安全域。主安全域一般由发卡方控制，辅助安全域则交由第三方应用管理，其中主安全域可以管理辅助安全域的应用。<br>辅助安全域又可以划分为授权管理安全域、委托管理安全域，具有授权管理权限的安全域可以在限制条件内自由安装删除应用，委托管理权限的安全域的下载删除受到主安全域的限制。<br>TSM平台提供主安全域、辅助安全域下的应用下载及个人化。<br>TSM平台提供应用删除功能，可通过非接触(POS)及空中方式，将已经安装在SE中主安全域、第三方安全域下应用删除。<br>TSM平台提供默认应用管理，用户可以通过客户端自由选择默认应用。<br>TSM客户端可以提供交易记录查询等。</p>
+<h2 id="TSM特点"><a href="#TSM特点" class="headerlink" title="TSM特点"></a>TSM特点</h2><p><strong>1、一卡多账户</strong></p>
+<ul>
+<li><p>符合GP国际标准</p>
+</li>
+<li><p>手机客户端可设置默认支付账户</p>
+</li>
+<li><p>动态PPSE、多账户冲突检测，PPSE存储了默认支付账户，CRL及CRES提供冲突检测、默认账户管理。</p>
+</li>
+</ul>
+<p><strong>2、空中发卡和应用管理</strong></p>
+<ul>
+<li><p>应用申请、下载、个人化</p>
+</li>
+<li><p>应用锁定、删除</p>
+</li>
+<li><p>安全载体状态通知和管理</p>
+</li>
+</ul>
+<p><strong>3、安全</strong></p>
+<ul>
+<li><p>交易关键数据、敏感信息仍储存在安全存储中</p>
+</li>
+<li><p>针对手机银行或支付客户端的安全加固（防止数据泄露和窃取）：采用动态密码软键盘、不留存敏感数据、代码混淆、防止反编译、防止二次打包、客户端与服务器进行认证加密传输等</p>
+</li>
+<li><p>客户端访问权限控制：基于GPAC（GP Access Control）国际标准，采用了客户端访问控制技术进一步加强客户端与SE交互安全性</p>
+</li>
+</ul>
 
       
 
@@ -236,11 +246,15 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">ios</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">TSM</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">cocoapods</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">智能卡</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">移动支付</a>
         		</li>
       		
 		</ul>
@@ -296,7 +310,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2016/08/29/关于CocoaPods/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/08/31/TSM解析/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -310,18 +324,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2017/08/15/HEXO搭建个人博客/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          HEXO搭建个人博客
-        
-      </div>
-    </a>
   
-  
-    <a href="/2016/07/18/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2017/08/15/HEXO搭建个人博客/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">HEXO搭建个人博客</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -349,7 +354,7 @@
   
   <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="关于CocoaPods" data-title="关于CocoaPods" data-url="http://yoursite.com/2016/08/29/关于CocoaPods/"></div>
+	<div class="ds-thread" data-thread-key="TSM解析" data-title="TSM解析" data-url="http://yoursite.com/2017/08/31/TSM解析/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
